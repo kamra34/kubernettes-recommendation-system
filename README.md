@@ -1,4 +1,5 @@
-# kubernettes-recommendation-system
+# ** INCOMPLETE  ONGOING- PROJECT** 
+# kubernettes-recommendation-system 
 This is an on-going project for deploying "Multimedia Recommendation System" using Python, Docker, and Kubernetes:
 
 # Microservice architecture:
