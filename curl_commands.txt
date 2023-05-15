@@ -1,0 +1,17 @@
+Add a User:
+curl -X POST -H "Content-Type: application/json" -d '{"username": "testuser", "email": "testuser@example.com", "password": "testpassword", "interests": "music, reading"}' http://localhost:5000/user
+
+Update User Information:
+curl -X PUT -H "Content-Type: application/json" -d '{"username": "updateduser", "email": "updateduser@example.com", "interests": "dancing, traveling"}' http://localhost:5000/user/1
+
+Update User Password:
+curl -X PUT -H "Content-Type: application/json" -d '{"username": "updateduser", "email": "updateduser@example.com", "interests": "dancing, traveling"}' http://localhost:5000/user/1
+
+Get User Preferences:
+curl -X GET http://localhost:5000/user/1/interests
+
+Update User Preferences:
+curl -X PUT -H "Content-Type: application/json" -d '{"preferences": "sports, movies"}' http://localhost:5000/user/1/preferences
+
+Get User Details:
+curl -X GET http://localhost:5000/user/1
